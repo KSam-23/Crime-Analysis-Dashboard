@@ -152,12 +152,12 @@ crime-analysis-dashboard/
 
 #### 2️. Data Cleaning & Transformation
 **Key Operations:**
-- ✅ Removed duplicate records (0.3% of dataset)
-- ✅ Handled missing values using domain-appropriate methods
-- ✅ Standardized date formats and time zones
-- ✅ Geocoded locations for spatial analysis
-- ✅ Created categorical hierarchies (crime type → category → severity)
-- ✅ Engineered temporal features (hour, day of week, month, season, year)
+-  Removed duplicate records (0.3% of dataset)
+-  Handled missing values using domain-appropriate methods
+-  Standardized date formats and time zones
+-  Geocoded locations for spatial analysis
+-  Created categorical hierarchies (crime type → category → severity)
+-  Engineered temporal features (hour, day of week, month, season, year)
 
 
 #### 3️. Data Modeling (Star Schema)
@@ -403,7 +403,9 @@ scikit-learn==1.3.2
 
 ## Dashboard Screenshots
 
+<img width="1345" height="754" alt="dashboard image1" src="https://github.com/user-attachments/assets/c485db78-d630-4e7d-b873-038a4cd88916" />
 
+<img width="1343" height="755" alt="dashboard image2" src="https://github.com/user-attachments/assets/c4b66f26-96ad-491a-985c-e0c3d6a3c9b4" />
 
 ---
 
@@ -496,11 +498,11 @@ scikit-learn==1.3.2
 - [Data Visualization Principles](https://www.storytellingwithdata.com/)
 
 ### Certifications & Skills
-- ✅ Microsoft Certified: Data Analyst Associate
-- ✅ Power BI Expertise
-- ✅ SQL Proficiency
-- ✅ Python for Data Analysis
-- ✅ Data Visualization Best Practices
+-  Microsoft Certified: Data Analyst Associate
+-  Power BI Expertise
+-  SQL Proficiency
+-  Python for Data Analysis
+-  Data Visualization Best Practices
 
 ---
 
@@ -519,32 +521,32 @@ scikit-learn==1.3.2
 
 ---
 
-### 🎓 Learning Outcomes from This Project
+### Learning Outcomes from This Project
 
 By completing this project, I demonstrated proficiency in:
 
 **Technical Skills:**
-- ✅ Advanced Power BI dashboard development
-- ✅ Complex DAX formulas and calculations
-- ✅ Data modeling (Star schema)
-- ✅ Python data analysis (Pandas, NumPy)
-- ✅ SQL query optimization
-- ✅ ETL pipeline development
-- ✅ Data visualization best practices
-- ✅ Git version control
+-  Advanced Power BI dashboard development
+-  Complex DAX formulas and calculations
+-  Data modeling (Star schema)
+-  Python data analysis (Pandas, NumPy)
+-  SQL query optimization
+-  ETL pipeline development
+-  Data visualization best practices
+-  Git version control
 
 **Business Skills:**
-- ✅ Translating business questions into analytics
-- ✅ Stakeholder communication
-- ✅ Data-driven decision making
-- ✅ KPI definition and tracking
-- ✅ Executive presentation skills
+-  Translating business questions into analytics
+-  Stakeholder communication
+-  Data-driven decision making
+-  KPI definition and tracking
+-  Executive presentation skills
 
 **Domain Knowledge:**
-- ✅ Crime analysis methodologies
-- ✅ Law enforcement metrics
-- ✅ Public safety data standards
-- ✅ Geographic information systems (GIS)
+-  Crime analysis methodologies
+-  Law enforcement metrics
+-  Public safety data standards
+-  Geographic information systems (GIS)
 
 ---
 
