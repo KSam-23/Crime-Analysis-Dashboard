@@ -1,4 +1,4 @@
-# 🚔 Crime Data Analysis & Visualization Dashboard
+# Crime Data Analysis & Visualization Dashboard
 
 [![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
@@ -11,11 +11,11 @@
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 This comprehensive crime data analysis project delivers strategic insights to law enforcement agencies and policymakers by analyzing crime patterns, trends, and hotspots across multiple dimensions. The project demonstrates advanced data analytics capabilities, from raw data extraction to interactive dashboard deployment.
 
-### 🎯 Business Objectives
+###  Business Objectives
 
 - **Track Crime Trends**: Monitor daily, weekly, and monthly crime occurrences to identify patterns
 - **Resource Optimization**: Guide strategic police resource allocation based on crime hotspot analysis
@@ -54,7 +54,7 @@ This comprehensive crime data analysis project delivers strategic insights to la
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Data Processing & Analysis
 | Tool | Purpose |
@@ -85,57 +85,53 @@ This comprehensive crime data analysis project delivers strategic insights to la
 ```
 crime-analysis-dashboard/
 │
-├── 📊 data/
-│   ├── raw/                    # Original, immutable data
-│   ├── processed/              # Cleaned and transformed data
+├── data/
+│   ├── raw/                    
+│   ├── processed/              
 │   └── external/               # Reference data (districts, demographics)
 │
-├── 📓 notebooks/
+├── notebooks/
 │   ├── 01_data_exploration.ipynb      # Initial EDA
 │   ├── 02_data_cleaning.ipynb         # Data quality checks
 │   ├── 03_feature_engineering.ipynb   # New variable creation
 │   └── 04_analysis.ipynb              # Statistical analysis
 │
-├── 🐍 scripts/
+├── scripts/
 │   ├── data_extraction.py      # Data collection scripts
 │   ├── data_cleaning.py        # Cleaning utilities
 │   └── data_transformation.py  # ETL processes
 │
-├── 📈 powerbi/
+├── powerbi/
 │   ├── crime_dashboard.pbix    # Power BI report file
 │   ├── dataset_model.bim       # Tabular model definition
 │   └── dax_measures.txt        # DAX formula documentation
 │
-├── 📋 sql/
+├── sql/
 │   ├── schema.sql              # Database schema
 │   ├── queries.sql             # Analysis queries
 │   └── views.sql               # Database views
-│
-├── 📸 screenshots/
-│   ├── dashboard_overview.png
-│   ├── crime_trends.png
-│   └── geographic_analysis.png
+││  
 │
 ├── 📄 docs/
-│   ├── data_dictionary.md      # Column descriptions
-│   ├── methodology.md          # Analysis approach
+│   ├── data_dictionary.md     
+│   ├── methodology.md          
 │   
 │
-├── README.md                    # You are here!
-└── requirements.txt             # Python dependencies
+├── README.md                   
+└── requirements.txt          
 
 ```
 
 ---
 
-## 📊 Data Sources & Coverage
+## Data Sources & Coverage
 
 ### Primary Dataset
-- **Source**: [Specify your data source - e.g., City Police Department Open Data Portal]
+- **Source**: Added
 - **Time Period**: 2018 - 2024 (7 years)
 - **Records**: 500,000+ crime incidents
 - **Update Frequency**: Daily
-- **Geographic Coverage**: [City/Region Name]
+- **Geographic Coverage**:  United States
 
 ### Data Dimensions
 - **Crime Types**: 35+ categories (Theft, Assault, Burglary, Vehicle Crime, etc.)
@@ -150,11 +146,11 @@ crime-analysis-dashboard/
 
 ---
 
-## 🔄 Data Pipeline & Methodology
+## Data Pipeline & Methodology
 
-### 1️⃣ Data Extraction
+#### 1️. Data Extraction
 
-### 2️⃣ Data Cleaning & Transformation
+#### 2️. Data Cleaning & Transformation
 **Key Operations:**
 - ✅ Removed duplicate records (0.3% of dataset)
 - ✅ Handled missing values using domain-appropriate methods
@@ -164,7 +160,7 @@ crime-analysis-dashboard/
 - ✅ Engineered temporal features (hour, day of week, month, season, year)
 
 
-### 3️⃣ Data Modeling (Star Schema)
+#### 3️. Data Modeling (Star Schema)
 
 **Fact Table**: `fact_crimes`
 - Primary keys: CrimeID, DateKey, LocationKey, TypeKey
@@ -178,7 +174,7 @@ crime-analysis-dashboard/
 
 **Relationships**: One-to-Many from dimensions to fact table
 
-### 4️⃣ Advanced DAX Measures
+#### 4️. Advanced DAX Measures
 
 ```dax
 -- Total Crimes
@@ -230,7 +226,7 @@ AVERAGEX(
 
 ---
 
-## 📈 Dashboard Pages & Visualizations
+## Dashboard Pages & Visualizations
 
 ### 1. Executive Summary
 **Purpose**: High-level KPIs and trends for stakeholders
@@ -276,7 +272,7 @@ AVERAGEX(
 
 ---
 
-## 🔍 Key Insights & Findings
+## Key Insights & Findings
 
 ### 1. Crime Trends
 - **Overall Trend**: 15% decrease in total crimes from 2018-2024
@@ -313,7 +309,7 @@ AVERAGEX(
 
 ---
 
-## 💻 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 ```bash
@@ -405,13 +401,13 @@ scikit-learn==1.3.2
 
 ---
 
-## 📸 Dashboard Screenshots
+## Dashboard Screenshots
 
 
 
 ---
 
-## 🎯 Use Cases
+## Use Cases
 
 ### For Law Enforcement
 - **Resource Allocation**: Deploy officers to high-crime areas during peak times
@@ -433,7 +429,7 @@ scikit-learn==1.3.2
 
 ---
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 | Metric | Value | Industry Benchmark |
 |--------|-------|--------------------|
@@ -446,7 +442,7 @@ scikit-learn==1.3.2
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 ### Phase 1: Advanced Analytics (Q1 2025)
 - [ ] Machine learning crime prediction models
@@ -482,7 +478,7 @@ scikit-learn==1.3.2
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Data Source**: [City] Police Department for providing open data
 - **Inspiration**: Various crime analysis projects in the data science community
@@ -491,7 +487,7 @@ scikit-learn==1.3.2
 
 ---
 
-## 📚 Additional Resources
+## Additional Resources
 
 ### Learn More
 - [Power BI Documentation](https://docs.microsoft.com/power-bi/)
