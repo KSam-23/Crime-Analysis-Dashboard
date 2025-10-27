@@ -127,7 +127,6 @@ crime-analysis-dashboard/
 ## Data Sources & Coverage
 
 ### Primary Dataset
-- **Source**: Added
 - **Time Period**: 2018 - 2024 (7 years)
 - **Records**: 500,000+ crime incidents
 - **Update Frequency**: Daily
